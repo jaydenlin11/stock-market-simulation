@@ -4,7 +4,6 @@
 
 I crafted this stock market simulator (`market`) to mimic an electronic exchange, matching buy and sell orders with `std::priority_queue`. It reads orders from standard input in two formats and spits out tailored reports based on command-line flags. It’s been a deep dive into C++ STL, object-oriented design, and real-time data handling.
 
----
 
 ## ✨ Features
 
@@ -17,7 +16,7 @@ I crafted this stock market simulator (`market`) to mimic an electronic exchange
 ./market -vmit < input.txt > output.txt
 ```
 
----
+
 
 ## 💰 Market Logic
 
@@ -44,7 +43,7 @@ Each order has a timestamp, trader ID, stock ID, buy/sell intent, price limit, a
 - 📉 T2 offers 20 shares at $10 min, matches T1’s 10 at $100 (T1’s price), then posts 10 leftover at $10.
 - 🚫 T3 bids $1 for 10, but T2’s $10 ask is too high—no deal.
 
----
+
 
 ## 📄 Input
 
@@ -59,7 +58,7 @@ NUM_STOCKS: 3
 **📝 TL Format:** `0 BUY T1 S2 $100 #50`  
 **🌟 PR Format:** Seed, order count, arrival rate.
 
----
+
 
 ## 📈 Output
 
