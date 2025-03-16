@@ -1,0 +1,5 @@
+COMMENT: A trade make 0 profit
+MODE: TL
+NUM_TRADERS: 2
+NUM_STOCKS: 2
+
